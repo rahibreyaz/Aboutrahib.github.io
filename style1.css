@@ -9,6 +9,7 @@
   width: 100%;
   min-height: 100vh;
   background-color: #ddd;
+  background: url(gg.png) no-repeat center center/cover;
 }
 .container {
   width: 80%;
@@ -19,6 +20,7 @@
 .content-section {
   float: left;
   width: 55%;
+  color: white;
 }
 .image-section {
   float: right;
@@ -26,15 +28,17 @@
 }
 .image-section img {
   width: 100%;
-  height: 65vh;
+  height: 70vh;
 }
 .content-section .title {
   text-transform: uppercase;
   font-size: 28px;
+  color: maroon;
+
 }
 .content-section .content h3 {
   margin-top: 20px;
-  color: #5d5d5d;
+  color: white;
   font-size: 21px;
 }
 .content-section .content p {
